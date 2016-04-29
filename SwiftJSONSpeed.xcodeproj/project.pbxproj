@@ -12,8 +12,28 @@
 		1151E0451CCFB2BF0061DA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1151E0431CCFB2BF0061DA65 /* Main.storyboard */; };
 		1151E0471CCFB2BF0061DA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1151E0461CCFB2BF0061DA65 /* Assets.xcassets */; };
 		1151E04A1CCFB2BF0061DA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1151E0481CCFB2BF0061DA65 /* LaunchScreen.storyboard */; };
-		1151E0551CCFB2BF0061DA65 /* SwiftJSONSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151E0541CCFB2BF0061DA65 /* SwiftJSONSpeedTests.swift */; };
+		1151E0551CCFB2BF0061DA65 /* JSONModelSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151E0541CCFB2BF0061DA65 /* JSONModelSpeedTests.swift */; };
 		1151E0601CCFB2BF0061DA65 /* SwiftJSONSpeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151E05F1CCFB2BF0061DA65 /* SwiftJSONSpeedUITests.swift */; };
+		1151E06F1CCFB9160061DA65 /* SimpleJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 1151E06E1CCFB9160061DA65 /* SimpleJSON.json */; };
+		117974F71CD1F69500BE3286 /* GlossPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117974F61CD1F69500BE3286 /* GlossPerson.swift */; };
+		117974F91CD20A7B00BE3286 /* SwiftyJSONSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117974F81CD20A7B00BE3286 /* SwiftyJSONSpeedTests.swift */; };
+		117974FB1CD20AFC00BE3286 /* UnboxSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117974FA1CD20AFC00BE3286 /* UnboxSpeedTests.swift */; };
+		117974FD1CD20B5A00BE3286 /* DecodableSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117974FC1CD20B5A00BE3286 /* DecodableSpeedTests.swift */; };
+		117974FF1CD20BA200BE3286 /* GlossSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117974FE1CD20BA200BE3286 /* GlossSpeedTests.swift */; };
+		117975121CD211AE00BE3286 /* UnboxablePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117975111CD211AE00BE3286 /* UnboxablePerson.swift */; };
+		117975151CD2122100BE3286 /* DecodablePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117975141CD2122100BE3286 /* DecodablePerson.swift */; };
+		117975181CD212DE00BE3286 /* SwiftyJSONPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117975171CD212DE00BE3286 /* SwiftyJSONPerson.swift */; };
+		1186C0C01CD225ED001365A5 /* JSONJoyPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186C0BF1CD225ED001365A5 /* JSONJoyPerson.swift */; };
+		1186C0C21CD228C9001365A5 /* JSONJoySpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186C0C11CD228C9001365A5 /* JSONJoySpeedTests.swift */; };
+		1186C0C51CD244E4001365A5 /* ObjectMapperSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186C0C41CD244E4001365A5 /* ObjectMapperSpeedTests.swift */; };
+		1186C0C81CD2450D001365A5 /* ObjectMapperPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186C0C71CD2450D001365A5 /* ObjectMapperPerson.swift */; };
+		11A871F81CD0EE8C000F5120 /* ComplexJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A871F71CD0EE8C000F5120 /* ComplexJSON.json */; };
+		11A871FC1CD11760000F5120 /* JSONModelPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A871FB1CD11760000F5120 /* JSONModelPerson.m */; };
+		11D0C4241CD11B1F00B5698A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D0C4231CD11B1F00B5698A /* Person.swift */; };
+		11D0C4291CD11D1F00B5698A /* JSONModelComplexList.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0C4281CD11D1F00B5698A /* JSONModelComplexList.m */; };
+		6664041A1360E648DE872FD4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA324A8AE2D354E08E104160 /* Pods.framework */; };
+		DC017FF067C8EA80E7FA2DA3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA324A8AE2D354E08E104160 /* Pods.framework */; };
+		EAD28668097C1C9134A06489 /* Pods_SwiftJSONSpeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4A91D6C83A8FACABE0B0FC /* Pods_SwiftJSONSpeedTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0005CDF8EA1B1EC445AA201A /* Pods-SwiftJSONSpeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONSpeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONSpeedTests/Pods-SwiftJSONSpeedTests.release.xcconfig"; sourceTree = "<group>"; };
 		1151E03C1CCFB2BF0061DA65 /* SwiftJSONSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftJSONSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1151E03F1CCFB2BF0061DA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1151E0411CCFB2BF0061DA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +63,36 @@
 		1151E0491CCFB2BF0061DA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1151E04B1CCFB2BF0061DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1151E0501CCFB2BF0061DA65 /* SwiftJSONSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftJSONSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1151E0541CCFB2BF0061DA65 /* SwiftJSONSpeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJSONSpeedTests.swift; sourceTree = "<group>"; };
+		1151E0541CCFB2BF0061DA65 /* JSONModelSpeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModelSpeedTests.swift; sourceTree = "<group>"; };
 		1151E0561CCFB2BF0061DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1151E05B1CCFB2BF0061DA65 /* SwiftJSONSpeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftJSONSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1151E05F1CCFB2BF0061DA65 /* SwiftJSONSpeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJSONSpeedUITests.swift; sourceTree = "<group>"; };
 		1151E0611CCFB2BF0061DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1151E06E1CCFB9160061DA65 /* SimpleJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = SimpleJSON.json; path = "JSON files/SimpleJSON.json"; sourceTree = "<group>"; };
+		117974F61CD1F69500BE3286 /* GlossPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossPerson.swift; sourceTree = "<group>"; };
+		117974F81CD20A7B00BE3286 /* SwiftyJSONSpeedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONSpeedTests.swift; sourceTree = "<group>"; };
+		117974FA1CD20AFC00BE3286 /* UnboxSpeedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnboxSpeedTests.swift; sourceTree = "<group>"; };
+		117974FC1CD20B5A00BE3286 /* DecodableSpeedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableSpeedTests.swift; sourceTree = "<group>"; };
+		117974FE1CD20BA200BE3286 /* GlossSpeedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossSpeedTests.swift; sourceTree = "<group>"; };
+		117975111CD211AE00BE3286 /* UnboxablePerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnboxablePerson.swift; sourceTree = "<group>"; };
+		117975141CD2122100BE3286 /* DecodablePerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodablePerson.swift; sourceTree = "<group>"; };
+		117975171CD212DE00BE3286 /* SwiftyJSONPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONPerson.swift; sourceTree = "<group>"; };
+		1186C0BF1CD225ED001365A5 /* JSONJoyPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoyPerson.swift; sourceTree = "<group>"; };
+		1186C0C11CD228C9001365A5 /* JSONJoySpeedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoySpeedTests.swift; sourceTree = "<group>"; };
+		1186C0C41CD244E4001365A5 /* ObjectMapperSpeedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectMapperSpeedTests.swift; sourceTree = "<group>"; };
+		1186C0C71CD2450D001365A5 /* ObjectMapperPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectMapperPerson.swift; sourceTree = "<group>"; };
+		11A871F71CD0EE8C000F5120 /* ComplexJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ComplexJSON.json; path = "JSON files/ComplexJSON.json"; sourceTree = "<group>"; };
+		11A871F91CD11182000F5120 /* SwiftJSONSpeed-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftJSONSpeed-Bridging-Header.h"; sourceTree = "<group>"; };
+		11A871FA1CD11760000F5120 /* JSONModelPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelPerson.h; sourceTree = "<group>"; };
+		11A871FB1CD11760000F5120 /* JSONModelPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelPerson.m; sourceTree = "<group>"; };
+		11D0C4231CD11B1F00B5698A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		11D0C4271CD11D1F00B5698A /* JSONModelComplexList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelComplexList.h; sourceTree = "<group>"; };
+		11D0C4281CD11D1F00B5698A /* JSONModelComplexList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelComplexList.m; sourceTree = "<group>"; };
+		4F4A91D6C83A8FACABE0B0FC /* Pods_SwiftJSONSpeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftJSONSpeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		749719DE63D7F6AB69FF0A5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BA324A8AE2D354E08E104160 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D0F645A645CD8836455562 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FF59D16222A80211E568D133 /* Pods-SwiftJSONSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONSpeedTests/Pods-SwiftJSONSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC017FF067C8EA80E7FA2DA3 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD28668097C1C9134A06489 /* Pods_SwiftJSONSpeedTests.framework in Frameworks */,
+				6664041A1360E648DE872FD4 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +130,8 @@
 				1151E0531CCFB2BF0061DA65 /* SwiftJSONSpeedTests */,
 				1151E05E1CCFB2BF0061DA65 /* SwiftJSONSpeedUITests */,
 				1151E03D1CCFB2BF0061DA65 /* Products */,
+				C34A94A33DFC4D943C4F2475 /* Pods */,
+				873D60DBF3CE96436E7FE3C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,8 +161,10 @@
 		1151E0531CCFB2BF0061DA65 /* SwiftJSONSpeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				1151E0541CCFB2BF0061DA65 /* SwiftJSONSpeedTests.swift */,
-				1151E0561CCFB2BF0061DA65 /* Info.plist */,
+				117975001CD20BFA00BE3286 /* Tests */,
+				11D0C4221CD11AA300B5698A /* Models */,
+				1151E06D1CCFB8E50061DA65 /* JSON files */,
+				117975061CD20C3800BE3286 /* Supporting Files */,
 			);
 			path = SwiftJSONSpeedTests;
 			sourceTree = "<group>";
@@ -125,6 +178,196 @@
 			path = SwiftJSONSpeedUITests;
 			sourceTree = "<group>";
 		};
+		1151E06D1CCFB8E50061DA65 /* JSON files */ = {
+			isa = PBXGroup;
+			children = (
+				1151E06E1CCFB9160061DA65 /* SimpleJSON.json */,
+				11A871F71CD0EE8C000F5120 /* ComplexJSON.json */,
+			);
+			name = "JSON files";
+			sourceTree = "<group>";
+		};
+		117975001CD20BFA00BE3286 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1186C0C31CD244CE001365A5 /* ObjectMapper */,
+				1186C0BD1CD225D0001365A5 /* JSONJoy */,
+				117975051CD20C2B00BE3286 /* Gloss */,
+				117975041CD20C1E00BE3286 /* JSONModel */,
+				117975031CD20C1400BE3286 /* SwiftyJSON */,
+				117975021CD20C0D00BE3286 /* Decodable */,
+				117975011CD20C0500BE3286 /* Unbox */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		117975011CD20C0500BE3286 /* Unbox */ = {
+			isa = PBXGroup;
+			children = (
+				117974FA1CD20AFC00BE3286 /* UnboxSpeedTests.swift */,
+			);
+			name = Unbox;
+			sourceTree = "<group>";
+		};
+		117975021CD20C0D00BE3286 /* Decodable */ = {
+			isa = PBXGroup;
+			children = (
+				117974FC1CD20B5A00BE3286 /* DecodableSpeedTests.swift */,
+			);
+			name = Decodable;
+			sourceTree = "<group>";
+		};
+		117975031CD20C1400BE3286 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				117974F81CD20A7B00BE3286 /* SwiftyJSONSpeedTests.swift */,
+			);
+			name = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		117975041CD20C1E00BE3286 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				1151E0541CCFB2BF0061DA65 /* JSONModelSpeedTests.swift */,
+			);
+			name = JSONModel;
+			sourceTree = "<group>";
+		};
+		117975051CD20C2B00BE3286 /* Gloss */ = {
+			isa = PBXGroup;
+			children = (
+				117974FE1CD20BA200BE3286 /* GlossSpeedTests.swift */,
+			);
+			name = Gloss;
+			sourceTree = "<group>";
+		};
+		117975061CD20C3800BE3286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1151E0561CCFB2BF0061DA65 /* Info.plist */,
+				11A871F91CD11182000F5120 /* SwiftJSONSpeed-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		117975071CD20CAA00BE3286 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				11D0C4271CD11D1F00B5698A /* JSONModelComplexList.h */,
+				11D0C4281CD11D1F00B5698A /* JSONModelComplexList.m */,
+				11A871FA1CD11760000F5120 /* JSONModelPerson.h */,
+				11A871FB1CD11760000F5120 /* JSONModelPerson.m */,
+			);
+			name = JSONModel;
+			sourceTree = "<group>";
+		};
+		117975081CD20CBB00BE3286 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				11D0C4231CD11B1F00B5698A /* Person.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		117975091CD20CC200BE3286 /* Gloss */ = {
+			isa = PBXGroup;
+			children = (
+				117974F61CD1F69500BE3286 /* GlossPerson.swift */,
+			);
+			name = Gloss;
+			sourceTree = "<group>";
+		};
+		117975101CD2119D00BE3286 /* Unboxable */ = {
+			isa = PBXGroup;
+			children = (
+				117975111CD211AE00BE3286 /* UnboxablePerson.swift */,
+			);
+			name = Unboxable;
+			sourceTree = "<group>";
+		};
+		117975131CD2121100BE3286 /* Decodable */ = {
+			isa = PBXGroup;
+			children = (
+				117975141CD2122100BE3286 /* DecodablePerson.swift */,
+			);
+			name = Decodable;
+			sourceTree = "<group>";
+		};
+		117975161CD212D100BE3286 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				117975171CD212DE00BE3286 /* SwiftyJSONPerson.swift */,
+			);
+			name = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		1186C0BD1CD225D0001365A5 /* JSONJoy */ = {
+			isa = PBXGroup;
+			children = (
+				1186C0C11CD228C9001365A5 /* JSONJoySpeedTests.swift */,
+			);
+			name = JSONJoy;
+			sourceTree = "<group>";
+		};
+		1186C0BE1CD225DB001365A5 /* JSONJoy */ = {
+			isa = PBXGroup;
+			children = (
+				1186C0BF1CD225ED001365A5 /* JSONJoyPerson.swift */,
+			);
+			name = JSONJoy;
+			sourceTree = "<group>";
+		};
+		1186C0C31CD244CE001365A5 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				1186C0C41CD244E4001365A5 /* ObjectMapperSpeedTests.swift */,
+			);
+			name = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		1186C0C61CD244F5001365A5 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				1186C0C71CD2450D001365A5 /* ObjectMapperPerson.swift */,
+			);
+			name = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		11D0C4221CD11AA300B5698A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1186C0C61CD244F5001365A5 /* ObjectMapper */,
+				1186C0BE1CD225DB001365A5 /* JSONJoy */,
+				117975161CD212D100BE3286 /* SwiftyJSON */,
+				117975131CD2121100BE3286 /* Decodable */,
+				117975101CD2119D00BE3286 /* Unboxable */,
+				117975091CD20CC200BE3286 /* Gloss */,
+				117975081CD20CBB00BE3286 /* Common */,
+				117975071CD20CAA00BE3286 /* JSONModel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		873D60DBF3CE96436E7FE3C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA324A8AE2D354E08E104160 /* Pods.framework */,
+				4F4A91D6C83A8FACABE0B0FC /* Pods_SwiftJSONSpeedTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34A94A33DFC4D943C4F2475 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				749719DE63D7F6AB69FF0A5F /* Pods.debug.xcconfig */,
+				D4D0F645A645CD8836455562 /* Pods.release.xcconfig */,
+				FF59D16222A80211E568D133 /* Pods-SwiftJSONSpeedTests.debug.xcconfig */,
+				0005CDF8EA1B1EC445AA201A /* Pods-SwiftJSONSpeedTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +375,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1151E0641CCFB2BF0061DA65 /* Build configuration list for PBXNativeTarget "SwiftJSONSpeed" */;
 			buildPhases = (
+				88E5C8E0C8498A3C3F62A0DD /* Check Pods Manifest.lock */,
 				1151E0381CCFB2BF0061DA65 /* Sources */,
 				1151E0391CCFB2BF0061DA65 /* Frameworks */,
 				1151E03A1CCFB2BF0061DA65 /* Resources */,
+				AE12F7737DB65C35D6DBB1CE /* Embed Pods Frameworks */,
+				AB739CCBC70C1BC94376F443 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +395,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1151E0671CCFB2BF0061DA65 /* Build configuration list for PBXNativeTarget "SwiftJSONSpeedTests" */;
 			buildPhases = (
+				C4CCB3B988C441C62A3DC572 /* Check Pods Manifest.lock */,
 				1151E04C1CCFB2BF0061DA65 /* Sources */,
 				1151E04D1CCFB2BF0061DA65 /* Frameworks */,
 				1151E04E1CCFB2BF0061DA65 /* Resources */,
+				0E542D7F91824EE1715AC624 /* Embed Pods Frameworks */,
+				D95C60B74F33469382CE14E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +488,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A871F81CD0EE8C000F5120 /* ComplexJSON.json in Resources */,
+				1151E06F1CCFB9160061DA65 /* SimpleJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +501,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E542D7F91824EE1715AC624 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E5C8E0C8498A3C3F62A0DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB739CCBC70C1BC94376F443 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE12F7737DB65C35D6DBB1CE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4CCB3B988C441C62A3DC572 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D95C60B74F33469382CE14E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1151E0381CCFB2BF0061DA65 /* Sources */ = {
@@ -265,7 +609,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1151E0551CCFB2BF0061DA65 /* SwiftJSONSpeedTests.swift in Sources */,
+				117974FB1CD20AFC00BE3286 /* UnboxSpeedTests.swift in Sources */,
+				11D0C4291CD11D1F00B5698A /* JSONModelComplexList.m in Sources */,
+				11D0C4241CD11B1F00B5698A /* Person.swift in Sources */,
+				117974FD1CD20B5A00BE3286 /* DecodableSpeedTests.swift in Sources */,
+				11A871FC1CD11760000F5120 /* JSONModelPerson.m in Sources */,
+				117975151CD2122100BE3286 /* DecodablePerson.swift in Sources */,
+				1186C0C81CD2450D001365A5 /* ObjectMapperPerson.swift in Sources */,
+				117974F91CD20A7B00BE3286 /* SwiftyJSONSpeedTests.swift in Sources */,
+				117975181CD212DE00BE3286 /* SwiftyJSONPerson.swift in Sources */,
+				1186C0C21CD228C9001365A5 /* JSONJoySpeedTests.swift in Sources */,
+				117975121CD211AE00BE3286 /* UnboxablePerson.swift in Sources */,
+				1186C0C51CD244E4001365A5 /* ObjectMapperSpeedTests.swift in Sources */,
+				117974FF1CD20BA200BE3286 /* GlossSpeedTests.swift in Sources */,
+				1151E0551CCFB2BF0061DA65 /* JSONModelSpeedTests.swift in Sources */,
+				1186C0C01CD225ED001365A5 /* JSONJoyPerson.swift in Sources */,
+				117974F71CD1F69500BE3286 /* GlossPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +758,11 @@
 		};
 		1151E0651CCFB2BF0061DA65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749719DE63D7F6AB69FF0A5F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftJSONSpeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,9 +771,11 @@
 		};
 		1151E0661CCFB2BF0061DA65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D0F645A645CD8836455562 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftJSONSpeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,24 +784,28 @@
 		};
 		1151E0681CCFB2BF0061DA65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF59D16222A80211E568D133 /* Pods-SwiftJSONSpeedTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftJSONSpeedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftJSONSpeedTests/SwiftJSONSpeed-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftJSONSpeed.app/SwiftJSONSpeed";
 			};
 			name = Debug;
 		};
 		1151E0691CCFB2BF0061DA65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0005CDF8EA1B1EC445AA201A /* Pods-SwiftJSONSpeedTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftJSONSpeedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftJSONSpeedTests/SwiftJSONSpeed-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftJSONSpeed.app/SwiftJSONSpeed";
 			};
 			name = Release;
@@ -484,6 +851,7 @@
 				1151E0661CCFB2BF0061DA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1151E0671CCFB2BF0061DA65 /* Build configuration list for PBXNativeTarget "SwiftJSONSpeedTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +860,7 @@
 				1151E0691CCFB2BF0061DA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1151E06A1CCFB2BF0061DA65 /* Build configuration list for PBXNativeTarget "SwiftJSONSpeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +869,7 @@
 				1151E06C1CCFB2BF0061DA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
