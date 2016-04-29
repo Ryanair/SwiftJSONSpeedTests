@@ -13,6 +13,17 @@ Libraries | Version |  Simple JSON | Simple JSON x 1000 | Complex JSON
 [Unbox](https://github.com/JohnSundell/Unbox)| 1.4 | 0.000 | 0.054 | 0.014
 [JSONJoy-Swift](https://github.com/daltoniam/JSONJoy-Swift)| 2.0.0 | 0.000 | 0.054 | 0.009
 
+### iPhone 5 - iOS 8.4.1 (results in seconds)
+Libraries | Version |  Simple JSON | Simple JSON x 1000 | Complex JSON
+----------|---------| -------------|--------------------|--------------
+[JSONModel](https://github.com/icanzilb/JSONModel)| 1.2.0 | 0.002 | 0.150 | 0.002
+[Gloss](https://github.com/hkellaway/Gloss) | 0.7 | 0.000 | 0.229 | 0.022
+[ObjectMapper](https://github.com/Hearst-DD/ObjectMapper)| 1.2 | 0.000 | 0.227 | 0.024
+[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)| 2.3.2 | 0.001 | 0.371 | 0.024
+[Decodable](https://github.com/Anviking/Decodable)| 0.4.2 | 0.000 | 0.196 | 0.009
+[Unbox](https://github.com/JohnSundell/Unbox)| 1.4 | 0.000 | 0.206 | 0.021
+[JSONJoy-Swift](https://github.com/daltoniam/JSONJoy-Swift)| 2.0.0 | 0.000 | 0.175 | 0.011
+
 #JSONs used for the test:
 ### Simple JSON:
 	{
