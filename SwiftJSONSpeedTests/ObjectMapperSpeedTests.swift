@@ -14,19 +14,19 @@ class ObjectMapperSpeedTests: XCTestCase {
    func testOneSimpleObjectMapper() {
       let data = loadTestData("SimpleJSON")!
       
-      self.measureBlock {
-         let jsonString = String(data: data, encoding: NSUTF8StringEncoding)
-         let _ = Mapper<Person>().map(jsonString)
+      self.measure {
+         let jsonString = String(data: data, encoding: String.Encoding.utf8)
+         let _ = Mapper<Person>().map(JSONString: jsonString!)
       }
    }
    
    func testManySimpleObjectMapper() {
       let data = loadTestData("SimpleJSON")!
       
-      self.measureBlock {
+      self.measure {
          for _ in 0...1000 {
-            let jsonString = String(data: data, encoding: NSUTF8StringEncoding)
-            let _ = Mapper<Person>().map(jsonString)
+            let jsonString = String(data: data, encoding: String.Encoding.utf8)
+            let _ = Mapper<Person>().map(JSONString: jsonString!)
          }
       }
    }
@@ -34,9 +34,9 @@ class ObjectMapperSpeedTests: XCTestCase {
    func testComplexObjectMapper() {
       let data = loadTestData("ComplexJSON")!
       
-      self.measureBlock { 
-         let jsonString = "{\"people\":\n\(String(data: data, encoding: NSUTF8StringEncoding)!)}"
-         let _ = Mapper<PersonList>().map(jsonString)
+      self.measure { 
+         let jsonString = "{\"people\":\n\(String(data: data, encoding: String.Encoding.utf8)!)}"
+         let _ = Mapper<PersonList>().map(JSONString: jsonString)
       }
    }
 }

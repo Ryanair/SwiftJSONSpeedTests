@@ -13,10 +13,10 @@ class DecodableSpeedTests: XCTestCase {
    func testOneSimpleDecodable() {
       let data = loadTestData("SimpleJSON")!
       
-      self.measureBlock {
+      self.measure {
          do {
-            let json = try NSJSONSerialization.JSONObjectWithData(data, options: [])
-            let _ = try Person.decode(json)
+            let json = try JSONSerialization.jsonObject(with: data, options: [])
+            let _ = try Person.decode(json as AnyObject)
          } catch {
             print(error)
          }
@@ -26,11 +26,11 @@ class DecodableSpeedTests: XCTestCase {
    func testManySimpleDecodable() {
       let data = loadTestData("SimpleJSON")!
       
-      self.measureBlock {
+      self.measure {
          do {
             for _ in 0...1000 {
-               let json = try NSJSONSerialization.JSONObjectWithData(data, options: [])
-               let _ = try Person.decode(json)
+               let json = try JSONSerialization.jsonObject(with: data, options: [])
+               let _ = try Person.decode(json as AnyObject)
             }
          } catch {
             print(error)
@@ -41,9 +41,9 @@ class DecodableSpeedTests: XCTestCase {
    func testComplexDecodable() {
       let data = loadTestData("ComplexJSON")!
       
-      self.measureBlock {
+      self.measure {
          do {
-            let json = try NSJSONSerialization.JSONObjectWithData(data, options: [])
+            let json = try JSONSerialization.jsonObject(with: data, options: [])
             let persons = try [ComplexPerson].decode(json)
             let _ = PersonList(persons: persons)
          } catch { }

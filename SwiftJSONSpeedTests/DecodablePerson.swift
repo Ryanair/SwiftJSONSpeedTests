@@ -10,7 +10,7 @@ import UIKit
 import Decodable
 
 extension Person: Decodable {
-   static func decode(json: AnyObject) throws -> Person {
+   static func decode(_ json: Any) throws -> Person {
       return try Person(
          aFirstName: json => "first",
          aLastName: json => "last",
@@ -20,7 +20,7 @@ extension Person: Decodable {
 }
 
 extension ComplexPerson: Decodable {
-   static func decode(json: AnyObject) throws -> ComplexPerson {
+   static func decode(_ json: Any) throws -> ComplexPerson {
       return try ComplexPerson(
          aFirstName: json => "name" => "first",
          aLastName: json => "name" => "last",

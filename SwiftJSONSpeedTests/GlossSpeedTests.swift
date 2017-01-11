@@ -13,9 +13,9 @@ class GlossSpeedTests: XCTestCase {
    func testOneSimpleGloss() {
       let data = loadTestData("SimpleJSON")!
       
-      self.measureBlock {
+      self.measure {
          do {
-            let json = try NSJSONSerialization.JSONObjectWithData(data, options: [])
+            let json = try JSONSerialization.jsonObject(with: data, options: [])
             let _ = Person.init(json: json as! Gloss.JSON)
          } catch {
             print(error)
@@ -26,10 +26,10 @@ class GlossSpeedTests: XCTestCase {
    func testManySimpleGloss() {
       let data = loadTestData("SimpleJSON")!
       
-      self.measureBlock {
+      self.measure {
          do {
             for _ in 0...1000 {
-               let json = try NSJSONSerialization.JSONObjectWithData(data, options: [])
+               let json = try JSONSerialization.jsonObject(with: data, options: [])
                let _ = Person.init(json: json as! Gloss.JSON)
             }
          } catch {
@@ -41,10 +41,10 @@ class GlossSpeedTests: XCTestCase {
    func testComplexGloss() {
       let data = loadTestData("ComplexJSON")!
       
-      self.measureBlock {
+      self.measure {
          do {
-            let json = try NSJSONSerialization.JSONObjectWithData(data, options: [])
-            let _ = [ComplexPerson].fromJSONArray(json as! [Gloss.JSON])
+            let json = try JSONSerialization.jsonObject(with: data, options: [])
+            let _ = [ComplexPerson].from(jsonArray: json as! [Gloss.JSON])
          } catch {
             print(error)
          }

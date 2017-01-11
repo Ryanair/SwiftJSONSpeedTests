@@ -31,8 +31,8 @@
 		11A871FC1CD11760000F5120 /* JSONModelPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A871FB1CD11760000F5120 /* JSONModelPerson.m */; };
 		11D0C4241CD11B1F00B5698A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D0C4231CD11B1F00B5698A /* Person.swift */; };
 		11D0C4291CD11D1F00B5698A /* JSONModelComplexList.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0C4281CD11D1F00B5698A /* JSONModelComplexList.m */; };
-		6664041A1360E648DE872FD4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA324A8AE2D354E08E104160 /* Pods.framework */; };
-		DC017FF067C8EA80E7FA2DA3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA324A8AE2D354E08E104160 /* Pods.framework */; };
+		8F38E33A7FF306B643409F11 /* Pods_SwiftJSONSpeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF001BFD1CD2827D660382C8 /* Pods_SwiftJSONSpeed.framework */; };
+		B91708BC8E1DA1F6BB21EB88 /* Pods_SwiftJSONSpeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CFA59580E108865B1D1E61 /* Pods_SwiftJSONSpeedUITests.framework */; };
 		EAD28668097C1C9134A06489 /* Pods_SwiftJSONSpeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4A91D6C83A8FACABE0B0FC /* Pods_SwiftJSONSpeedTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,10 +88,15 @@
 		11D0C4231CD11B1F00B5698A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		11D0C4271CD11D1F00B5698A /* JSONModelComplexList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelComplexList.h; sourceTree = "<group>"; };
 		11D0C4281CD11D1F00B5698A /* JSONModelComplexList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelComplexList.m; sourceTree = "<group>"; };
+		3369E54E4D3A6585A00AE134 /* Pods-SwiftJSONSpeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONSpeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONSpeed/Pods-SwiftJSONSpeed.release.xcconfig"; sourceTree = "<group>"; };
 		4F4A91D6C83A8FACABE0B0FC /* Pods_SwiftJSONSpeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftJSONSpeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		620DAEE4525AEB53B6C39B63 /* Pods-SwiftJSONSpeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONSpeedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONSpeedUITests/Pods-SwiftJSONSpeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70CFA59580E108865B1D1E61 /* Pods_SwiftJSONSpeedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftJSONSpeedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		749719DE63D7F6AB69FF0A5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		BA324A8AE2D354E08E104160 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D0F645A645CD8836455562 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EE089E9B4BBE418B500B64EB /* Pods-SwiftJSONSpeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONSpeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONSpeed/Pods-SwiftJSONSpeed.debug.xcconfig"; sourceTree = "<group>"; };
+		EF001BFD1CD2827D660382C8 /* Pods_SwiftJSONSpeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftJSONSpeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5358FCE6CD37FA7AE0DC5FE /* Pods-SwiftJSONSpeedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONSpeedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONSpeedUITests/Pods-SwiftJSONSpeedUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF59D16222A80211E568D133 /* Pods-SwiftJSONSpeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJSONSpeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJSONSpeedTests/Pods-SwiftJSONSpeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC017FF067C8EA80E7FA2DA3 /* Pods.framework in Frameworks */,
+				8F38E33A7FF306B643409F11 /* Pods_SwiftJSONSpeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +114,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD28668097C1C9134A06489 /* Pods_SwiftJSONSpeedTests.framework in Frameworks */,
-				6664041A1360E648DE872FD4 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91708BC8E1DA1F6BB21EB88 /* Pods_SwiftJSONSpeedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +356,9 @@
 		873D60DBF3CE96436E7FE3C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA324A8AE2D354E08E104160 /* Pods.framework */,
 				4F4A91D6C83A8FACABE0B0FC /* Pods_SwiftJSONSpeedTests.framework */,
+				EF001BFD1CD2827D660382C8 /* Pods_SwiftJSONSpeed.framework */,
+				70CFA59580E108865B1D1E61 /* Pods_SwiftJSONSpeedUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -364,6 +370,10 @@
 				D4D0F645A645CD8836455562 /* Pods.release.xcconfig */,
 				FF59D16222A80211E568D133 /* Pods-SwiftJSONSpeedTests.debug.xcconfig */,
 				0005CDF8EA1B1EC445AA201A /* Pods-SwiftJSONSpeedTests.release.xcconfig */,
+				EE089E9B4BBE418B500B64EB /* Pods-SwiftJSONSpeed.debug.xcconfig */,
+				3369E54E4D3A6585A00AE134 /* Pods-SwiftJSONSpeed.release.xcconfig */,
+				620DAEE4525AEB53B6C39B63 /* Pods-SwiftJSONSpeedUITests.debug.xcconfig */,
+				F5358FCE6CD37FA7AE0DC5FE /* Pods-SwiftJSONSpeedUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -375,12 +385,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1151E0641CCFB2BF0061DA65 /* Build configuration list for PBXNativeTarget "SwiftJSONSpeed" */;
 			buildPhases = (
-				88E5C8E0C8498A3C3F62A0DD /* Check Pods Manifest.lock */,
+				88E5C8E0C8498A3C3F62A0DD /* [CP] Check Pods Manifest.lock */,
 				1151E0381CCFB2BF0061DA65 /* Sources */,
 				1151E0391CCFB2BF0061DA65 /* Frameworks */,
 				1151E03A1CCFB2BF0061DA65 /* Resources */,
-				AE12F7737DB65C35D6DBB1CE /* Embed Pods Frameworks */,
-				AB739CCBC70C1BC94376F443 /* Copy Pods Resources */,
+				AE12F7737DB65C35D6DBB1CE /* [CP] Embed Pods Frameworks */,
+				AB739CCBC70C1BC94376F443 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,12 +405,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1151E0671CCFB2BF0061DA65 /* Build configuration list for PBXNativeTarget "SwiftJSONSpeedTests" */;
 			buildPhases = (
-				C4CCB3B988C441C62A3DC572 /* Check Pods Manifest.lock */,
+				C4CCB3B988C441C62A3DC572 /* [CP] Check Pods Manifest.lock */,
 				1151E04C1CCFB2BF0061DA65 /* Sources */,
 				1151E04D1CCFB2BF0061DA65 /* Frameworks */,
 				1151E04E1CCFB2BF0061DA65 /* Resources */,
-				0E542D7F91824EE1715AC624 /* Embed Pods Frameworks */,
-				D95C60B74F33469382CE14E3 /* Copy Pods Resources */,
+				0E542D7F91824EE1715AC624 /* [CP] Embed Pods Frameworks */,
+				D95C60B74F33469382CE14E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -416,9 +426,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1151E06A1CCFB2BF0061DA65 /* Build configuration list for PBXNativeTarget "SwiftJSONSpeedUITests" */;
 			buildPhases = (
+				67E011ED7DB130B5BF71F460 /* [CP] Check Pods Manifest.lock */,
 				1151E0571CCFB2BF0061DA65 /* Sources */,
 				1151E0581CCFB2BF0061DA65 /* Frameworks */,
 				1151E0591CCFB2BF0061DA65 /* Resources */,
+				CC3ADA1766952F95AB183F69 /* [CP] Embed Pods Frameworks */,
+				06C41ECAC3CCC34AECCEC112 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -437,18 +450,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Ryanair;
 				TargetAttributes = {
 					1151E03B1CCFB2BF0061DA65 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					1151E04F1CCFB2BF0061DA65 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 1151E03B1CCFB2BF0061DA65;
 					};
 					1151E05A1CCFB2BF0061DA65 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 1151E03B1CCFB2BF0061DA65;
 					};
 				};
@@ -503,94 +520,139 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E542D7F91824EE1715AC624 /* Embed Pods Frameworks */ = {
+		06C41ECAC3CCC34AECCEC112 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftJSONSpeedUITests/Pods-SwiftJSONSpeedUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		88E5C8E0C8498A3C3F62A0DD /* Check Pods Manifest.lock */ = {
+		0E542D7F91824EE1715AC624 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftJSONSpeedTests/Pods-SwiftJSONSpeedTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB739CCBC70C1BC94376F443 /* Copy Pods Resources */ = {
+		67E011ED7DB130B5BF71F460 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		AE12F7737DB65C35D6DBB1CE /* Embed Pods Frameworks */ = {
+		88E5C8E0C8498A3C3F62A0DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C4CCB3B988C441C62A3DC572 /* Check Pods Manifest.lock */ = {
+		AB739CCBC70C1BC94376F443 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftJSONSpeed/Pods-SwiftJSONSpeed-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D95C60B74F33469382CE14E3 /* Copy Pods Resources */ = {
+		AE12F7737DB65C35D6DBB1CE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftJSONSpeed/Pods-SwiftJSONSpeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4CCB3B988C441C62A3DC572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3ADA1766952F95AB183F69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftJSONSpeedUITests/Pods-SwiftJSONSpeedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95C60B74F33469382CE14E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftJSONSpeedTests/Pods-SwiftJSONSpeedTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -685,8 +747,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -731,8 +795,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -751,6 +817,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -758,27 +825,33 @@
 		};
 		1151E0651CCFB2BF0061DA65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 749719DE63D7F6AB69FF0A5F /* Pods.debug.xcconfig */;
+			baseConfigurationReference = EE089E9B4BBE418B500B64EB /* Pods-SwiftJSONSpeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftJSONSpeed/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1151E0661CCFB2BF0061DA65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4D0F645A645CD8836455562 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 3369E54E4D3A6585A00AE134 /* Pods-SwiftJSONSpeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftJSONSpeed/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -792,6 +865,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftJSONSpeedTests/SwiftJSONSpeed-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftJSONSpeed.app/SwiftJSONSpeed";
 			};
 			name = Debug;
@@ -806,28 +880,33 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftJSONSpeedTests/SwiftJSONSpeed-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftJSONSpeed.app/SwiftJSONSpeed";
 			};
 			name = Release;
 		};
 		1151E06B1CCFB2BF0061DA65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620DAEE4525AEB53B6C39B63 /* Pods-SwiftJSONSpeedUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftJSONSpeedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SwiftJSONSpeed;
 			};
 			name = Debug;
 		};
 		1151E06C1CCFB2BF0061DA65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5358FCE6CD37FA7AE0DC5FE /* Pods-SwiftJSONSpeedUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftJSONSpeedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ryanair.SwiftJSONSpeedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SwiftJSONSpeed;
 			};
 			name = Release;

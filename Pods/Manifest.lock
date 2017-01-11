@@ -1,0 +1,30 @@
+PODS:
+  - Decodable (0.5)
+  - Gloss (1.1.1)
+  - JSONJoy-Swift (3.0.1)
+  - JSONModel (1.7.0)
+  - ObjectMapper (2.2.2)
+  - SwiftyJSON (3.1.4)
+  - Unbox (2.3.0)
+
+DEPENDENCIES:
+  - Decodable (= 0.5)
+  - Gloss (= 1.1.1)
+  - JSONJoy-Swift (= 3.0.1)
+  - JSONModel (= 1.7.0)
+  - ObjectMapper (= 2.2.2)
+  - SwiftyJSON (= 3.1.4)
+  - Unbox (= 2.3.0)
+
+SPEC CHECKSUMS:
+  Decodable: 7c90acc68d357b71d0d6efc120faf9c53c644b7e
+  Gloss: 4a892694cba7387efa4102a51f86110651366b18
+  JSONJoy-Swift: ef6eccdcf319412f149bbdd031b27f0430d5d576
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Unbox: 5ba1966ebe99b5d568d432626323331eedd33458
+
+PODFILE CHECKSUM: c3e44a091e49fb214278a619c5d6bde0340b866f
+
+COCOAPODS: 1.2.0.beta.3

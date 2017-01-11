@@ -1,19 +1,12 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '8.0'
-# Uncomment this line if you're using Swift
-
-pod 'JSONModel', '1.2.0'
-
 use_frameworks!
 
-link_with 'SwiftJSONSpeed', 'SwiftJSONSpeedTests'
-
-pod 'Decodable', '0.4.2'
-pod 'Unbox', '1.4'
-pod 'SwiftyJSON', '2.3.2'
-pod 'Gloss', '~> 0.7'
-pod 'JSONJoy-Swift', '~> 2.0.0'
-pod 'ObjectMapper', '~> 1.2'
+pod 'JSONModel', '1.7.0'
+pod 'Decodable', '0.5'
+pod 'Unbox', '2.3.0'
+pod 'SwiftyJSON', '3.1.4'
+pod 'Gloss', '1.1.1'
+pod 'JSONJoy-Swift', '3.0.1'
+pod 'ObjectMapper', '2.2.2'
 
 target 'SwiftJSONSpeed' do
 

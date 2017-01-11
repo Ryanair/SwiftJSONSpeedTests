@@ -9,7 +9,7 @@
 import ObjectMapper
 
 extension Person: Mappable {
-   init?(_ map: Map) {
+   init?(map: Map) {
       
       // To use '<-' it has to be a var. If it's a let, you have to make this ugly thing in the init:
       var firstName: String = ""
@@ -30,7 +30,7 @@ extension Person: Mappable {
 }
 
 extension PersonList: Mappable {
-   init?(_ map: Map) {
+   init?(map: Map) {
       var persons: [ComplexPerson] = []
       
       persons <- map["people"]
@@ -42,7 +42,7 @@ extension PersonList: Mappable {
 }
 
 extension ComplexPerson: Mappable {
-   init?(_ map: Map) {
+   init?(map: Map) {
       var firstName: String = ""
       var lastName: String = ""
       var id: Int = 0

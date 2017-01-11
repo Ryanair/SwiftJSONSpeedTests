@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Decodable-iOS9.3" "$PODS_CONFIGURATION_BUILD_DIR/Gloss-iOS9.3" "$PODS_CONFIGURATION_BUILD_DIR/JSONJoy-Swift-iOS9.3" "$PODS_CONFIGURATION_BUILD_DIR/JSONModel-iOS9.3" "$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper-iOS9.3" "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-iOS9.3" "$PODS_CONFIGURATION_BUILD_DIR/Unbox-iOS9.3"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Decodable-iOS9.3/Decodable.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Gloss-iOS9.3/Gloss.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSONJoy-Swift-iOS9.3/JSONJoy.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSONModel-iOS9.3/JSONModel.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper-iOS9.3/ObjectMapper.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-iOS9.3/SwiftyJSON.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Unbox-iOS9.3/Unbox.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Decodable" -framework "Gloss" -framework "JSONJoy" -framework "JSONModel" -framework "ObjectMapper" -framework "SwiftyJSON" -framework "Unbox"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

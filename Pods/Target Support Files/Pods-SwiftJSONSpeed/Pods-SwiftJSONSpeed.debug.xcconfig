@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Decodable-iOS8.0" "$PODS_CONFIGURATION_BUILD_DIR/Gloss-iOS8.0" "$PODS_CONFIGURATION_BUILD_DIR/JSONJoy-Swift-iOS8.0" "$PODS_CONFIGURATION_BUILD_DIR/JSONModel-iOS8.0" "$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper-iOS8.0" "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-iOS8.0" "$PODS_CONFIGURATION_BUILD_DIR/Unbox-iOS8.0"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Decodable-iOS8.0/Decodable.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Gloss-iOS8.0/Gloss.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSONJoy-Swift-iOS8.0/JSONJoy.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSONModel-iOS8.0/JSONModel.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper-iOS8.0/ObjectMapper.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON-iOS8.0/SwiftyJSON.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Unbox-iOS8.0/Unbox.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Decodable" -framework "Gloss" -framework "JSONJoy" -framework "JSONModel" -framework "ObjectMapper" -framework "SwiftyJSON" -framework "Unbox"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

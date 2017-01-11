@@ -10,24 +10,24 @@ import UIKit
 import Unbox
 
 extension Person: Unboxable {
-   init(unboxer: Unboxer) {
-      firstname = unboxer.unbox("first")
-      lastname = unboxer.unbox("last")
-      id = unboxer.unbox("registered")
+   init(unboxer: Unboxer) throws {
+      firstname = try unboxer.unbox(key: "first")
+      lastname = try unboxer.unbox(key: "last")
+      id = try unboxer.unbox(key: "registered")
    }
 }
 
 
 extension PersonList: Unboxable {
-   init(unboxer: Unboxer) {
-      self.persons = unboxer.unbox("people")
+   init(unboxer: Unboxer) throws {
+      self.persons = try unboxer.unbox(key: "people")
    }
 }
 
 extension ComplexPerson: Unboxable {
-   init(unboxer: Unboxer) {
-      firstname = unboxer.unbox("name.first", isKeyPath: true)
-      lastname = unboxer.unbox("name.last", isKeyPath: true)
-      id = unboxer.unbox("registerDetails.id", isKeyPath: true)
+   init(unboxer: Unboxer) throws {
+      firstname = try unboxer.unbox(keyPath: "name.first")
+      lastname = try unboxer.unbox(keyPath: "name.last")
+      id = try unboxer.unbox(keyPath: "registerDetails.id")
    }
 }

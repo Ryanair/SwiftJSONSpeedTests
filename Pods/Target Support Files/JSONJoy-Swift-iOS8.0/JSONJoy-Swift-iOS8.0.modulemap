@@ -1,0 +1,6 @@
+framework module JSONJoy {
+  umbrella header "JSONJoy-Swift-iOS8.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

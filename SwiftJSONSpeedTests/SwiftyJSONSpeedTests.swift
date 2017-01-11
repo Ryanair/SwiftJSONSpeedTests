@@ -14,7 +14,7 @@ class SwiftyJSONSpeedTests: XCTestCase {
    func testOneSimpleSwiftyJSON() {
       let data = loadTestData("SimpleJSON")!
       
-      self.measureBlock {
+      self.measure {
          let _ = Person(JSON: JSON(data: data))
       }
    }
@@ -22,7 +22,7 @@ class SwiftyJSONSpeedTests: XCTestCase {
    func testManySimpleSwiftyJSON() {
       let data = loadTestData("SimpleJSON")!
       
-      self.measureBlock {
+      self.measure {
          for _ in 0...1000 {
             let _ = Person(JSON: JSON(data: data))
          }
@@ -32,7 +32,7 @@ class SwiftyJSONSpeedTests: XCTestCase {
    func testComplexSwiftyJSON() {
       let data = loadTestData("ComplexJSON")!
       
-      self.measureBlock {
+      self.measure {
          let _ = PersonList(JSON: JSON(data: data))
       }
       

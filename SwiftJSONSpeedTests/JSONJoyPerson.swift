@@ -10,16 +10,16 @@ import JSONJoy
 
 extension Person: JSONJoy {
    init(_ decoder: JSONDecoder) throws {
-      self.firstname = try decoder["first"].getString()
-      self.lastname = try decoder["last"].getString()
-      self.id = try decoder["registered"].getInt()
+      self.firstname = try decoder["first"].get()
+      self.lastname = try decoder["last"].get()
+      self.id = try decoder["registered"].get()
    }
 }
 
 extension PersonList: JSONJoy {
    init(_ decoder: JSONDecoder) throws {
       
-      guard let persons = decoder["people"].array else {throw JSONError.WrongType}
+      guard let persons = decoder["people"].getOptionalArray() else {throw JSONError.wrongType}
       var collect = [ComplexPerson]()
       
       for personDecoder in persons {
@@ -32,8 +32,8 @@ extension PersonList: JSONJoy {
 
 extension ComplexPerson: JSONJoy {
    init(_ decoder: JSONDecoder) throws {
-      self.firstname = try decoder["name"]["first"].getString()
-      self.lastname = try decoder["name"]["last"].getString()
-      self.id = try decoder["registerDetails"]["id"].getInt()
+      self.firstname = try decoder["name"]["first"].get()
+      self.lastname = try decoder["name"]["last"].get()
+      self.id = try decoder["registerDetails"]["id"].get()
    }
 }

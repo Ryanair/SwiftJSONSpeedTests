@@ -12,8 +12,8 @@ import Gloss
 extension Person: Decodable {
    init?(json: JSON) {
       guard let firstName: String = "first" <~~ json,
-         lastName: String = "last" <~~ json,
-         id: Int = "registered" <~~ json
+         let lastName: String = "last" <~~ json,
+         let id: Int = "registered" <~~ json
          else { return nil }
       
       self.firstname = firstName
@@ -25,8 +25,8 @@ extension Person: Decodable {
 extension ComplexPerson: Decodable {
    init?(json: JSON) {
       guard let firstName: String = "name.first" <~~ json,
-         lastName: String = "name.last" <~~ json,
-         id: Int = "registerDetails.id" <~~ json
+         let lastName: String = "name.last" <~~ json,
+         let id: Int = "registerDetails.id" <~~ json
          else { return nil }
       self.firstname = firstName
       self.lastname = lastName
